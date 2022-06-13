@@ -489,6 +489,10 @@ input::placeholder {
     align-items: flex-start;
 }
 
+.afford__item {
+    margin-right: 32px;
+}
+
 .values__item--title {
     display: flex;
     justify-content: center;
@@ -500,16 +504,35 @@ input::placeholder {
     margin-top: 16px;
 }
 
-.value__icon--cont {
-    background-color: #1fc51c;
-    padding: 8px;
-    border-radius: 9999px;
+.afford__icon--cont {
+    background: #60d262;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 8px;
+    padding: 8px; 
 }
 
-.value__icon {
-    color: #fff;
-    
+.pro__icon--cont {
+    background: #d26060;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 8px;
+    padding: 8px;
 }
+
+.fa-solid {
+    color: #29374d;
+
+}
+
 
 .value__item--header {
     font-size: 20px;
@@ -528,4 +551,9 @@ input::placeholder {
     background-color: #6415ff;
     border: none;
     border-radius: 50px;
+}
+
+.values__btn:hover {
+    background-color: #5212d2;
+    transition: all 300ms ease;
 }
