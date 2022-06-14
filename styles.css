@@ -240,7 +240,7 @@ input::placeholder {
     display: flex;
     flex-wrap: wrap;
     max-width: 1100px;
-  
+
 
 
 
@@ -266,7 +266,7 @@ input::placeholder {
     width: calc(100% / 3);
     padding-bottom: 36px;
     padding-top: 36px;
-    
+
 }
 
 .service__description {
@@ -296,8 +296,8 @@ input::placeholder {
     display: flex;
     flex-direction: row-reverse;
     padding: 80px 0;
-    
-    
+
+
 }
 
 .quality__img--wrapper {
@@ -309,13 +309,13 @@ input::placeholder {
 
 .quality__img {
     max-width: 100%;
-    
+
 }
 
 .quality__info--cont {
     display: flex;
     flex-direction: column;
-    
+
     width: 50%;
     padding: 32px 0;
     margin-right: 24px;
@@ -382,8 +382,8 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
-    
+
+
 }
 
 .steps__subheading {
@@ -399,7 +399,7 @@ input::placeholder {
 
 .steps__container {
     margin-top: 18px;
-  
+
 }
 
 
@@ -413,8 +413,8 @@ input::placeholder {
 .step__number {
     font-size: 36px;
     color: #cbd5e0;
-   
-    
+
+
 }
 
 .step__info {
@@ -444,6 +444,8 @@ input::placeholder {
 
 .values__img--wrapper {
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 .values__img {
@@ -513,7 +515,7 @@ input::placeholder {
     justify-content: center;
     border-radius: 50%;
     margin-right: 8px;
-    padding: 8px; 
+    padding: 8px;
 }
 
 .pro__icon--cont {
@@ -539,7 +541,7 @@ input::placeholder {
     color: #243e63;
     margin-left: 12px;
     font-weight: 700;
-    
+
 }
 
 .values__btn {
@@ -555,5 +557,169 @@ input::placeholder {
 
 .values__btn:hover {
     background-color: #5212d2;
+    transition: all 300ms ease;
+}
+
+/* pricing */
+
+.pricing__container {
+    padding: 80px 0;
+}
+
+.pricing__info__cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing__info--sub {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.pricing__info--header {
+    font-size: 48px;
+    color: #243e63;
+    font-weight: 900;
+}
+
+
+
+.pricing__info--para {
+    font-size: 18px;
+    color: #7c8ba1;
+    margin-top: 16px;
+    text-align: center;
+    max-width: 50%;
+}
+
+/* PLANS */
+
+.plans__cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+
+
+.business__plan {
+    
+    background: #6415ff;
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    margin-top: 64px;
+    margin-right: 10px;
+    padding: 8px 32px 0;
+    border: 2px solid #dbdddf97;
+    border-radius: 8px;
+    max-width: 380px;
+}
+
+.plan__header--info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.white__text {
+    color: white !important;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a202c;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1a202c;
+    margin: 4px 0;
+}
+
+.duration {
+    font-size: 16px;
+    font-weight: 700;
+    color: #A0Aec0;
+}
+
+.plan__features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    border-top: solid 2px #dbdddf97;
+    border-bottom: solid 2px #dbdddf97;
+
+}
+
+.feature__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a202c;
+}
+
+.feature {
+    font-size: 16px;
+    font-weight: 500;
+    color: #718096;
+    margin-top: 20px;
+}
+
+.three__plans--btn {
+    display: flex;
+    justify-content: center;
+    padding: 32px 64px;
+}
+
+.plan__btn {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 20px 48px;
+    border: none;
+    border-radius: 999px;
+}
+
+.personal__btn {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+
+}
+
+.personal__btn:hover {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 100%, rgb(129, 230, 217) 0%);
+    transition: all 300ms ease;
+}
+
+.business__btn {
+    background-color: #f7fafc;
+    color: #6415ff;
+}
+
+.business__btn:hover {
+    background-color: #e0edf5;
+    transition: all 300ms ease;
+
+}
+
+.enterprise__btn {
+    background: linear-gradient(115deg, #c62f2f 0%, rgb(238, 182, 175) 100%);
+}
+
+.enterprise__btn:hover {
+    background: linear-gradient(115deg, #c62f2f 100%, rgb(238, 182, 175) 0%);
     transition: all 300ms ease;
 }
