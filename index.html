@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>final project</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/f73bb75b62.js" crossorigin="anonymous"></script>
 </head>
 
@@ -67,6 +68,34 @@
                            ">Sign up</a>
                         </li>
                     </ul>
+
+                    <button class="btn__menu" onclick="openMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="menu__backdrop">
+                        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <ul class="menu__links">
+                            <li class="menu__list">
+                                <a href="#" class="menu__link" onclick="closeMenu()">About</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#features" class="menu__link" onclick="closeMenu()">Blog</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#features" class="menu__link" onclick="closeMenu()">Pricing</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#features" class="menu__link" onclick="closeMenu()">Login</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="mailto:vandervalk.cameron@gmail.com" class="menu__link"
+                                    onclick="closeMenu()">Contact Us</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
